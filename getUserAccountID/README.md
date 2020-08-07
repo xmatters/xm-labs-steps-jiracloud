@@ -33,9 +33,9 @@ Using the email address passed into the input this step will query Jira Cloud fo
 ## xMatters
 
 ### Import Step
-1. Download the workflow file [JiraCloudGetUserAccountID.zip](getUserAccountID/workflows/JiraCloudGetUserAccountID.zip)
+1. Download the workflow file [JiraCloudGetUserAccountID.zip](workflows/JiraCloudGetUserAccountID.zip)
 2. Log into your xMatters instance and navigate to Workflows
-3. Click **Import** and then select the [JiraCloudGetUserAccountID.zip](getUserAccountID/workflows/JiraCloudGetUserAccountID.zip) you just downloaded
+3. Click **Import** and then select the [JiraCloudGetUserAccountID.zip](workflows/JiraCloudGetUserAccountID.zip) you just downloaded
 4. Click **Import**
 #### :blue_book: NOTE
 > Once the import is complete if you are not going to use the workflow that was imported you can delete it. The imported steps will remain.
