@@ -12,9 +12,9 @@ Step to query Jira Cloud for a user by email address and returns their Jira Acco
 ---
 # Files
 * **Workflows**
-    * [JiraCloudGetUserAccountID.zip](getUserAccountID/workflows/JiraCloudGetUserAccountID.zip) - workflow to import step
+    * [JiraCloudGetUserAccountID.zip](workflows/JiraCloudGetUserAccountID.zip) - workflow to import step
 * **Step Source**
-    * [GetUserAccountID.js](getUserAccountID/src/GetUserAccountID.js) - source code for step
+    * [GetUserAccountID.js](src/GetUserAccountID.js) - source code for step
 
 # How It Works
 Using the email address passed into the input this step will query Jira Cloud for a user with a matching email address.  If it finds a user account it will output the user's Jira Account ID and Display Name.
