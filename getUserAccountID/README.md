@@ -78,3 +78,4 @@ Jira Cloud - Find Users - [GET /rest/api/3/user/search](https://developer.atlass
 | ---- | ----------- |
 | Jira User Account ID | The user's Jira Account ID |
 | Jira User Desplay Name | The user's Jira Display Name |
+
