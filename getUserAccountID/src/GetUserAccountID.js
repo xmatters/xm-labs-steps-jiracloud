@@ -1,6 +1,10 @@
-switch (input['Continue On Error'].toLowerCase().trim()) {
+/**
+ * Step to query Jira Cloud for a user by email address and returns their Jira Account ID and Display Name
+ */
+
+switch (input['Continue On Error'].toLowerCase().trim()) { 
     case "true": case "yes": case "1": contOnError = true; break;
-    default: contOnError = false;
+    default: contOnError = false; 
 }
 
 try {
@@ -60,9 +64,9 @@ try {
     }
 } catch (err) {
     if (contOnError == true) {
-        output['Jira User Account ID'] = 'error';
-        output['Jira User Display Name'] = 'error';
-        console.log(err);
+        output['Jira User Account ID'] = '';
+        output['Jira User Display Name'] = '';
+        console.log(err.message);
     } else {
         throw new Error(err);
     }
@@ -77,9 +81,7 @@ function bundleErrors(errors) {
     }
     return errorArray.join(' ');
 }
-
+    
 function undefinedIfEmptyString(input) {
     return input === '' ? undefined : input;
 }
-
-
