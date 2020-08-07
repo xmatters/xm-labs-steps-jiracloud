@@ -64,16 +64,16 @@ Using the email address passed into the input this step will query Jira Cloud fo
 # Usage
 The **Jira Cloud - Get User Account ID** step allows you to find a user's Jira Account ID using their email address.  This can be useful if you want to update Jira issue fields like Reporter or Assignee where you need the user's Jira Account ID.
 
-## Step External Endpoint
+### Step External Endpoint
 Jira Cloud - Find Users - [GET /rest/api/3/user/search](https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-user-search/#api-rest-api-3-user-search-get)
 
-## Inputs
+### Inputs
 | Name  | Required? | Min | Max | Help Text | Default Value | Multiline |
 | ----- | ----------| --- | --- | --------- | ------------- | --------- |
 | User Email | Yes | 0 | 2000 | Email address used to search for Jira user account | None | No |
 | Continue On Error | No | 0 | 5 | (true \| false) Continue flow if step has an error. Outputs will be empty | false | No |
 
-## Outputs
+### Outputs
 | Name | Description |
 | ---- | ----------- |
 | Jira User Account ID | The user's Jira Account ID |
