@@ -7,4 +7,4 @@ These are steps that can be used with Jira Cloud
 </kbd>
 
 # Steps
-* [Jira Cloud - Get User Account ID](getUserAccountID/README.md) - Step to query Jira Cloud for a user by email address and returns their Jira Account ID and Display Name
+* [Jira Cloud - Get User Account ID](getUserAccountID/) - Step to query Jira Cloud for a user by email address and returns their Jira Account ID and Display Name
